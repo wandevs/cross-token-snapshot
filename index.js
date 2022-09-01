@@ -21,10 +21,11 @@ async function main() {
         returns: [['eth_locked', val => (new BigNumber(val)).div(1e18)]],
       }
     } else {
+      let decimals = CONFIG.decimals[coin] ? CONFIG.decimals[coin] : 18;
       return {
         target: CONFIG.coins[coin].ethereum,
         call: ['balanceOf(address)(uint256)', '0xfCeAAaEB8D564a9D0e71Ef36f027b9D162bC334e'],
-        returns: [[coin + '_locked', val => (new BigNumber(val)).div(1e18)]],
+        returns: [[coin + '_locked', val => (new BigNumber(val)).div(10**decimals)]],
       }
     }
   });
