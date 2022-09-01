@@ -29,6 +29,11 @@ export const CONFIG = {
   decimals: {
     zcn: 10,
   },
+  explorer: {
+    avalanche: 'https://snowtrace.io/token/generic-tokenholders2\?a\=',
+    moonriver: 'https://moonriver.moonscan.io/token/generic-tokenholders2\?a\=',
+    bsc: 'https://bscscan.com/token/generic-tokenholders2\?a\=',
+  },
   coins: {
     eth: {
       ethereum: '0x0000000000000000000000000000000000000000',
@@ -36,16 +41,16 @@ export const CONFIG = {
       avalanche: '0x265fc66e84939f36d90ee38734afe4a770d2c114',
       moonriver: '0x576fde3f61b7c97e381c94e7a03dbc2e08af1111',
       xdc: '0x1289f70b8a16797cccbfcca8a845f36324ac9f8b',
-      okc: '0x4d14963528a62c6e90644bfc8a419cc41dc15588',
+      // okc: '0x4d14963528a62c6e90644bfc8a419cc41dc15588',
     },
     aave: {
       ethereum: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
-      okc: '0xa39ee04e8208c3309026f34007f036cbb03fa01d',
+      // okc: '0xa39ee04e8208c3309026f34007f036cbb03fa01d',
     },
     bal: {
       ethereum: '0xba100000625a3754423978a60c9317c58a424e3d',
       avalanche: '0x398d9647ae6c5e64b0d1afbedfa2fd42bb43939e',
-      okc: '0x6dc2fc72584bffa35cc6d521a22081dd0217f3b6',
+      // okc: '0x6dc2fc72584bffa35cc6d521a22081dd0217f3b6',
     },
     cfi: {
       ethereum: '0x63b4f3e3fa4e438698ce330e365e831f7ccd1ef4',
@@ -53,7 +58,7 @@ export const CONFIG = {
     },
     crv: {
       ethereum: '0xd533a949740bb3306d119cc777fa900ba034cd52',
-      okc: '0x79faa40a8ae1214a091db9d68791dc2a8450ab1f',
+      // okc: '0x79faa40a8ae1214a091db9d68791dc2a8450ab1f',
     },
     imx: {
       ethereum: '0x7b35ce522cb72e4077baeb96cb923a5529764a00',
@@ -69,12 +74,12 @@ export const CONFIG = {
     link: {
       ethereum: '0x514910771af9ca656af840dff83e8264ecf986ca',
       wanchain: '0x06da85475f9d2ae79af300de474968cd5a4fde61',
-      okc: '0x53d1276d7c1ccbf5186135476ecef4a96d3e9645',
+      // okc: '0x53d1276d7c1ccbf5186135476ecef4a96d3e9645',
     },
     mkr: {
       ethereum: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
       wanchain: '0xa31b67a8cba75ea6ced8340d8bc0431ab052a4fa',
-      okc: '0x18f902b9e2cef3d5aff8350bd032fe9a07515e7a',
+      // okc: '0x18f902b9e2cef3d5aff8350bd032fe9a07515e7a',
     },
     ocean: {
       ethereum: '0x967da4048cd07ab37855c090aaf366e4ce1b9f48',
